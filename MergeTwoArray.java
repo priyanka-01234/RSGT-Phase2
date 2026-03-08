@@ -3,7 +3,7 @@ package arrayPrograms;
 public class MergeTwoArray {
 	public static void main(String[] args) {
 		int arr1[] = {2,5,8,0};
-		int arr2[] = {1, 4, 7,3};
+		int arr2[] = {1, 5, 8,3};
 		int merge[] = new int[arr1.length + arr2.length];
 		int k =0;
 		
