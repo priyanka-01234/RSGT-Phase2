@@ -5,14 +5,14 @@ public class MergeTwoArray {
 		int arr1[] = {2,5,8,0};
 		int arr2[] = {1, 5, 8,3};
 		int merge[] = new int[arr1.length + arr2.length];
-		int k =0;
+		int j =0;
 		
 		for(int i =0 ; i<arr1.length; i++) {
-			merge[k++] = arr1[i];
+			merge[j++] = arr1[i];
 			
 		}
 		for (int i = 0; i < arr2.length; i++) {
-			merge[k++] = arr2[i];
+			merge[j++] = arr2[i];
 		}
 		
 		for (int i = 0; i < merge.length; i++) {
