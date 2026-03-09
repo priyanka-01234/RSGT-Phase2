@@ -2,7 +2,7 @@ package stringPrograms;
 
 public class NextChar {
 public static void main(String[] args) {
-	String s = "aceg";
+	String s = "abcd";
 	String result = " ";
 	
 	for(int i =0; i<s.length(); i++) {
