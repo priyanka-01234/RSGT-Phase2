@@ -6,7 +6,7 @@ public class RemoveDuplicateStringchar {
 
 	public static void main(String[] args) {
 		String s = "Hello";
-		String result = "";
+		String result = " ";
 		LinkedHashSet<Character> set =  new LinkedHashSet();
 		
 		char[] ch  = s.toCharArray();
